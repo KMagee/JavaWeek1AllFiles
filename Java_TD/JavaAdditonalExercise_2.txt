@@ -1,0 +1,23 @@
+Java Additional Exercise 2
+==========================
+Create a class to encapsulate information about an image.
+Properties should include string values for filename, photographer, category and description. (For some example data see week1_Java/data/photos.xml)
+Write a getter method which derives the full image path from the filename, e.g.
+  fullPath = "data/gallery" + filename + ".jpg"
+Ensure the category is one of the following:
+  people, city, abstract, nature, animals, miscellaneous, flowers
+Anything other than those categories should default to miscellaneous
+
+(You could import your Mock Data project to generate filenames and description data)
+
+Create another class to represent a gallery (containing an array of Images)
+Populate this gallery with a few image instances (using your Image class)
+Write methods to order the array by filename, by category or by photographer
+
+Invite the user to enter which ordering they want to see (including un-ordered) and output the image details in the chosen order
+
+Optional
+--------
+Provide user options to show image details only from a specific category, or by a particular photographer
+Also provide a search mechanism, where the user can enter some text and see files that match the search term
+

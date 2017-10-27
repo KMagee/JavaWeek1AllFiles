@@ -1,0 +1,23 @@
+Java review exercise 1 see https://pastebin.com/yisz0bzk
+====================== until about 2:00 ish (maybe before)	
+Generate a random number (0-9) for the user to guess in five tries.
+
+Create a new project from the template, with a name and package of your own choice.
+Generate a random integer in the range 0-9
+Write a loop which runs five times
+Use a Scanner instance to get user input (one character) on each loop iteration
+If the entered text matches the random number, say "you win" and break out of the loop
+If the loop completes all five iterations and they still didn't guess, say "you lose"
+
+Things to consider:
+Random() can return a number of useful things - see
+https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
+You will need to make the int into a string e.g. myStrg = "" + myInt
+Make sure the required classes are imported
+
+Optional
+--------
+Tell the user if their guess is higher or lower than the actual number
+Provide a 'play again?' option ('N' would end the game)
+Store each win or lose, along with the average number of guesses
+Report on average guesses and number of goes won or lost after each game

@@ -1,0 +1,27 @@
+Java Review Exercise 4
+======================
+In this exercise you declare a weather interface then implement it in a class
+You then create another class which extends the first class
+
+Create a new project then create a new interface (in a new file) called IWeather
+
+In the interface, declare methods getWeather() and showWeather() taking no parameters 
+
+and returning void
+
+Create a new class called WeatherReport (in a new file) which implements IWeather
+Declare properties for city and country (both typed as strings)
+You must also declare the methods required to satisfy the interface
+Set city and country to sensible defaults (e.g. Galway, ie)
+Inside getWeather() use println to output "Contacting weather server..."
+Inside showWeather() say something like "cloudy, 9 degrees" concatenated with the city and country values
+
+In the main method, create an instance of the WeatherReport and call both methods
+
+Create a new class (in a new file) called WeatherForecast which extends WeatherReport
+Declare the same properties and methods, then inside the methods, call super.method
+The only difference is you will also output that this is a forecast prediction
+
+Optional
+--------
+At run time pass in new values for city and country which override the defaults

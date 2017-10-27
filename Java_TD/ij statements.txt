@@ -1,0 +1,51 @@
+Some ij statements
+==================
+
+Connect to (and create) a database
+----------------------------------
+CONNECT 'jdbc:derby:firstdb;create=true';
+
+Create a table in the database
+------------------------------
+CREATE TABLE FIRSTTABLE (ID INT PRIMARY KEY, NAME VARCHAR(12));
+
+Insert some data into the database
+----------------------------------
+INSERT INTO FIRSTTABLE VALUES (10,'TEN'),(20,'TWENTY'),(30,'THIRTY');
+
+Read data back from the database
+--------------------------------
+SELECT * FROM FIRSTTABLE;		
+SELECT * FROM FIRSTTABLE WHERE ID=20;
+
+Use pre-written SQL
+===================
+Create a working folder and put the .sql files there
+Remember to connect ot the database:
+CONNECT 'jdbc:derby:firstdb;create=true';
+
+Run some .sql (from ij):
+run 'ToursDB_schema.sql';
+run 'loadTables.sql';
+
+Use Derby from within Java Programs
+===================================
+- start the Derby network server
+java -jar %DERBY_HOME%\lib\derbyrun.jar server start			
+
+- Add derbyclient.jar to your project
+Project properties -> java build path -> libraries
+
+- Run the program
+
+
+
+
+
+
+
+
+
+
+
+

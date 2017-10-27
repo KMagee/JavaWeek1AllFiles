@@ -1,0 +1,14 @@
+Java Auxiliary Exercise 3
+=========================
+Use the Derby network database to persist data about images.
+You can use your Image project or just create simple Image data.
+In a new class, create a connection to the Derby network server using derbyclient.
+Declare a table with fields for id, filename, category, photographer adn description.
+Every time a new Image isntance is created, store the image details in this table.
+Provide options to create a new record, read one record, update a record and delete one record
+Also provide options to show all records and to delete all records
+
+Optional
+========
+Consider how you could implement all the database management options that might be needed
+Include optionsto return database records that match search criteria
