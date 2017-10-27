@@ -1,0 +1,28 @@
+{
+	"data": [
+		{
+			"id": "0",
+			"category": "people"
+		},
+		{
+			"id": "1",
+			"category": "planets"
+		},
+		{
+			"id": "2",
+			"category": "starships"
+		},
+		{
+			"id": "3",
+			"category": "films"
+		},
+		{
+			"id": "4",
+			"category": "species"
+		},
+		{
+			"id": "5",
+			"category": "vehicles"
+		}s
+		]
+}

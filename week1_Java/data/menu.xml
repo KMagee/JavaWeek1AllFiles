@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<food>
+		<food_name>Artichoke Dip</food_name>
+		<photo>artichokeDip.jpg</photo>
+	</food>
+	<food>
+		<food_name>Bread Pudding</food_name>
+		<photo>breadPudding.jpg</photo>
+	</food>
+	<food>
+		<food_name>Cheesecake</food_name>
+		<photo>cheesecake.jpg</photo>
+	</food>
+	<food>
+		<food_name>Brownie Sundae</food_name>
+		<photo>brownieSundae.jpg</photo>
+	</food>
+	<food>
+		<food_name>Burger and Fries</food_name>
+		<photo>burgerFries.jpg</photo>
+	</food>
+	<food>
+		<food_name>Butternut Soup</food_name>
+		<photo>butternut_soup.jpg</photo>
+	</food>
+	<food>
+		<food_name>Chicken Satay</food_name>
+		<photo>chixSatay.jpg</photo>
+	</food>
+	<food>
+		<food_name>Chicken Fried Steak</food_name>
+		<photo>chxFriedSteakMash.jpg</photo>
+	</food>
+	<food>
+		<food_name>Halibut</food_name>
+		<photo>halibut.jpg</photo>
+	</food>
+	<food>
+		<food_name>Mahi Mahi</food_name>
+		<photo>mahi.jpg</photo>
+	</food>
+	<food>
+		<food_name>Meatloaf</food_name>
+		<photo>meatloafVegMed.jpg</photo>
+	</food>
+	<food>
+		<food_name>Penne</food_name>
+		<photo>penne.jpg</photo>
+	</food>
+	<food>
+		<food_name>Ribeye Steak</food_name>
+		<photo>ribeyeVegMedSwPot.jpg</photo>
+	</food>
+	<food>
+		<food_name>Ribs</food_name>
+		<photo>ribsVegMedRice.jpg</photo>
+	</food>
+	<food>
+		<food_name>Salad</food_name>
+		<photo>salad.jpg</photo>
+	</food>
+	<food>
+		<food_name>Salmon Pasta</food_name>
+		<photo>salmonPasta.jpg</photo>
+	</food>
+	<food>
+		<food_name>Shrimp</food_name>
+		<photo>shrimp.jpg</photo>
+	</food>
+	<food>
+		<food_name>Tuna</food_name>
+		<photo>tuna.jpg</photo>
+	</food>
+	<food>
+		<food_name>Wings</food_name>
+		<photo>wings.jpg</photo>
+	</food>
+</list>

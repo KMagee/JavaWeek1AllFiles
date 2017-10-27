@@ -1,0 +1,25 @@
+Java Project
+============
+If you would like to get on with a project using Java, try the following.
+
+Mock Data project
+-----------------
+Create a new project (with any name you choose) which prints out properties containing random data of the following kind:
+- a flag indicating on or off y
+
+- an integer representing a persons age in years y
+
+- a number for the quantity of data packets passing through a network node per year y
+
+- something that resembles an email (i.e. has @ and a dot) - use random characters
+
+- a string of between 8 and 12 random alpha-numeric characters of mixed case
+
+- something representing a highly secure password up to 20 characters
+
+Use the most efficient data type for each data member (estimate as needed!)
+
+Optional
+--------
+Provide accessors and mutators to each data member
+Also offer an array of programming language names, a combination of city/country and a structure containing name/address/phone data

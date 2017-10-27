@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sandwichMenu>
+	
+		<sandwich>
+			<name>Dagwood</name>
+			<bread>Hogie</bread>
+			<meat>Hot Beef</meat>
+			<spread>Mayo</spread>
+			<type>Cold</type>
+		</sandwich>
+	
+		<sandwich>
+			<name>Crooks</name>
+			<bread>Whole Wheat</bread>
+			<meat>Tofu Slices</meat>
+			<spread>Mustard</spread>
+			<type>Grilled</type>
+		</sandwich>
+	
+		<sandwich>
+			<name>Mountain</name>
+			<bread>Sourdough</bread>
+			<meat>Turkey</meat>
+			<spread>Mayo</spread>
+			<type>Triple Decker</type>
+		</sandwich>
+	
+		<sandwich>
+			<name>Pacific</name>
+			<bread>Pumpernickel</bread>
+			<meat>Tuna</meat>
+			<spread>Mustard</spread>
+			<type>Cold</type>
+		</sandwich>
+	
+		<sandwich>
+			<name>Shove</name>
+			<bread>Rye</bread>
+			<meat>Pastrami</meat>
+			<spread>Thousand Island</spread>
+			<type>Baked</type>
+		</sandwich>
+	
+		<sandwich>
+			<name>Gloucester</name>
+			<bread>Whole Wheat</bread>
+			<meat>Turkey</meat>
+			<spread>Plain</spread>
+			<type>Triple Decker</type>
+		</sandwich>
+	
+</sandwichMenu>

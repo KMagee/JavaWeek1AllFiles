@@ -1,0 +1,35 @@
+Java review exercise 2
+======================
+Create a new project in the usual way. Add a class called Image.
+Decide what properties an image needs. 
+Example properties: filename, category and description 
+Declare all the properties as private and choose suitable data types for the 
+
+properties (e.g. filename would be a String)
+Generate getters and setters for all the properties
+To do this, right-click a property and choose 'generate > getter and setter'
+
+Write a public method called 'showFullPath' that returns a String
+The method takes no arguments and derives a default path for images
+Inside this method, return a full path like this:
+  return "data/gallery/" + this.filename + ".jpg";
+(this matches the actual location of some genuine images)
+
+Write a second public method also called 'showFullPath' taking one argument
+The argument represents a custom path, to be concatenated with the filename, e.g.
+  return newPath + this.filename + ".jpg"; // note the default jpg
+
+The third public method (also called 'showFullPath') takes two arguments representing
+a custom path and a custom file-type. Return the full path e.g.
+  return newPath + this.filename + newFileType;
+
+Write one last public method called 'showDetails' taking no arguments.
+Inside the method, use System.out.println to show image details and default full path
+
+Now return to the main class. Create a new image instance (choose a name)
+Add the following properties to this image instance:
+  filename: animals03
+  photographer: Emily Kim
+  category: animals
+  description: chubby donkey
+Call the 'showDetails' method and run so you see the details of an image
